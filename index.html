@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eadbc5">
+  <meta name="description" content="An interactive scrapbook celebrating a decade of love and best friendship.">
+  <title>Ten Years of Us — Relationship Anniversary</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#memory-gallery">Skip to memories</a>
+
+  <header class="hero">
+    <div class="hero__bow" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="hero__copy">
+      <p class="eyebrow">Ten years <span>•</span> lovers <span>•</span> best friends</p>
+      <h1>
+        <span class="title-line title-line--one">Ten Years</span>
+        <span class="title-line title-line--two">Of Us</span>
+      </h1>
+      <p class="hero__intro">A decade of ordinary magic.<br>Five little moments from one big love story.</p>
+      <a class="hero__cue" href="#memory-gallery">
+        <span class="hero__cue-dot" aria-hidden="true"></span>
+        Tap a ribbon to open a memory
+      </a>
+    </div>
+
+    <div class="hero__stars" aria-hidden="true">
+      <i>✦</i><i>✦</i><i>✦</i><i>✦</i><i>✦</i>
+      <i>✦</i><i>✦</i><i>✦</i><i>✦</i><i>✦</i>
+    </div>
+
+    <div class="hero__stamp" aria-hidden="true">
+      <span>LOVERS</span>
+      <strong>A DECADE</strong>
+      <span>BEST FRIENDS</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="memory-gallery" id="memory-gallery" aria-labelledby="gallery-title">
+      <h2 class="sr-only" id="gallery-title">Love story memory cards</h2>
+
+      <div class="memory-grid">
+        <span class="fabric-band fabric-band--sage" aria-hidden="true"></span>
+        <span class="fabric-band fabric-band--blush" aria-hidden="true"></span>
+        <span class="fabric-band fabric-band--sky" aria-hidden="true"></span>
+        <span class="fabric-band fabric-band--lilac" aria-hidden="true"></span>
+
+        <span class="decade-thread" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i>
+        </span>
+
+        <span class="ornament ornament--flower" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i><b></b>
+        </span>
+        <span class="ornament ornament--star" aria-hidden="true"></span>
+        <span class="ornament ornament--envelope" aria-hidden="true">
+          <i></i><b>♥</b>
+        </span>
+        <button class="ornament ornament--books coupon-trigger" type="button"
+          data-required-clicks="3" data-taps="0"
+          aria-label="A little stack of books"
+          aria-controls="secret-coupon-dialog">
+          <span class="book-stack" aria-hidden="true">
+            <span class="book book--bottom"></span>
+            <span class="book book--middle"></span>
+            <span class="book book--top"></span>
+            <span class="book-heart">♥</span>
+          </span>
+          <span class="book-hint" aria-hidden="true">our next chapter</span>
+          <span class="book-progress" aria-hidden="true"><i>♥</i><i>♥</i><i>♥</i></span>
+        </button>
+
+        <button class="memory-card memory-card--one" type="button"
+          data-title="Coffee and slow mornings"
+          data-message="I still choose you in the quiet moments—the sleepy smiles, half-finished coffee, and ordinary mornings no one else sees. Somehow, even after all this time, waking up beside you still feels like my favorite beginning."
+          aria-label="Reveal memory: Coffee and slow mornings" aria-pressed="false">
+          <span class="card-lift">
+            <span class="card-rotor">
+              <span class="card-face card-front" aria-hidden="false">
+                <span class="photo-window">
+                  <img src="assets/photo-1.svg" alt="Illustrated couple sharing coffee in a warm café" width="1200" height="900">
+                </span>
+                <span class="photo-meta">
+                  <span class="photo-caption">coffee &amp; slow mornings</span>
+                  <span class="photo-date">OUR FAVORITE KIND OF DAY</span>
+                </span>
+              </span>
+              <span class="card-face card-back" aria-hidden="true">
+                <span class="back-number">♥</span>
+                <span class="back-kicker">For all our mornings</span>
+                <span class="back-message">I still choose you in the quiet moments—the sleepy smiles, half-finished coffee, and ordinary mornings no one else sees. Somehow, even after all this time, waking up beside you still feels like my favorite beginning.</span>
+                <span class="back-signoff">you still feel like my favorite hello</span>
+              </span>
+            </span>
+            <span class="ribbon ribbon--cocoa" aria-hidden="true">
+              <span class="ribbon__body"><span class="ribbon__copy">COFFEE DATE</span></span>
+            </span>
+          </span>
+        </button>
+
+        <button class="memory-card memory-card--two" type="button"
+          data-title="Every road with you"
+          data-message="Every wrong turn became worth taking because you were beside me. Through unfamiliar roads, changed plans, and every beautiful detour, you have always been the person who makes anywhere feel like somewhere I belong."
+          aria-label="Reveal memory: Every road with you" aria-pressed="false">
+          <span class="card-lift">
+            <span class="card-rotor">
+              <span class="card-face card-front" aria-hidden="false">
+                <span class="photo-window">
+                  <img src="assets/photo-2.svg" alt="Illustrated couple taking a colorful road trip" width="1200" height="900">
+                </span>
+                <span class="photo-meta">
+                  <span class="photo-caption">every road with you</span>
+                  <span class="photo-date">WINDOWS DOWN · MUSIC UP</span>
+                </span>
+              </span>
+              <span class="card-face card-back" aria-hidden="true">
+                <span class="back-number">∞</span>
+                <span class="back-kicker">For every detour</span>
+                <span class="back-message">Every wrong turn became worth taking because you were beside me. Through unfamiliar roads, changed plans, and every beautiful detour, you have always been the person who makes anywhere feel like somewhere I belong.</span>
+                <span class="back-signoff">I would take the long way with you</span>
+              </span>
+            </span>
+            <span class="ribbon ribbon--sage" aria-hidden="true">
+              <span class="ribbon__body"><span class="ribbon__copy">ROAD TRIP</span></span>
+            </span>
+          </span>
+        </button>
+
+        <button class="memory-card memory-card--three" type="button"
+          data-title="Dancing like nobody is watching"
+          data-message="You are still my favorite person to laugh with, dance with, and be completely ridiculous with. I love that growing older together has never meant growing too serious to make joy out of nothing."
+          aria-label="Reveal memory: Dancing like nobody is watching" aria-pressed="false">
+          <span class="card-lift">
+            <span class="card-rotor">
+              <span class="card-face card-front" aria-hidden="false">
+                <span class="photo-window">
+                  <img src="assets/photo-3.svg" alt="Illustrated couple dancing under warm party lights" width="1200" height="900">
+                </span>
+                <span class="photo-meta">
+                  <span class="photo-caption">dancing like nobody's watching</span>
+                  <span class="photo-date">NO OCCASION NEEDED</span>
+                </span>
+              </span>
+              <span class="card-face card-back" aria-hidden="true">
+                <span class="back-number">♫</span>
+                <span class="back-kicker">Whenever our song plays</span>
+                <span class="back-message">You are still my favorite person to laugh with, dance with, and be completely ridiculous with. I love that growing older together has never meant growing too serious to make joy out of nothing.</span>
+                <span class="back-signoff">same rhythm, always</span>
+              </span>
+            </span>
+            <span class="ribbon ribbon--rose" aria-hidden="true">
+              <span class="ribbon__body"><span class="ribbon__copy">OUR SONG</span></span>
+            </span>
+          </span>
+        </button>
+
+        <button class="memory-card memory-card--four" type="button"
+          data-title="Sunsets and promises"
+          data-message="We grew, changed, stumbled, and kept finding our way back to each other. Through every season, you have been the promise I want to keep and the hand I still reach for when the light begins to fade."
+          aria-label="Reveal memory: Sunsets and promises" aria-pressed="false">
+          <span class="card-lift">
+            <span class="card-rotor">
+              <span class="card-face card-front" aria-hidden="false">
+                <span class="photo-window">
+                  <img src="assets/photo-4.svg" alt="Illustrated couple sharing a sunset picnic" width="1200" height="900">
+                </span>
+                <span class="photo-meta">
+                  <span class="photo-caption">sunsets &amp; promises</span>
+                  <span class="photo-date">STAY A LITTLE LONGER</span>
+                </span>
+              </span>
+              <span class="card-face card-back" aria-hidden="true">
+                <span class="back-number">☼</span>
+                <span class="back-kicker">Through every season</span>
+                <span class="back-message">We grew, changed, stumbled, and kept finding our way back to each other. Through every season, you have been the promise I want to keep and the hand I still reach for when the light begins to fade.</span>
+                <span class="back-signoff">I would choose us again</span>
+              </span>
+            </span>
+            <span class="ribbon ribbon--butter" aria-hidden="true">
+              <span class="ribbon__body"><span class="ribbon__copy">SUNSET</span></span>
+            </span>
+          </span>
+        </button>
+
+        <button class="memory-card memory-card--five" type="button"
+          data-title="Home is you"
+          data-message="Ten years of loving you, and I still want every next chapter. Wherever life carries us, home will always be the place where I can find your hand, hear your laugh, and be completely myself beside you."
+          aria-label="Reveal memory: Home is you" aria-pressed="false">
+          <span class="card-lift">
+            <span class="card-rotor">
+              <span class="card-face card-front" aria-hidden="false">
+                <span class="photo-window">
+                  <img src="assets/photo-5.svg" alt="Illustrated couple looking through photos on a cozy night" width="1200" height="900">
+                </span>
+                <span class="photo-meta">
+                  <span class="photo-caption">home is wherever you are</span>
+                  <span class="photo-date">MY FAVORITE PLACE</span>
+                </span>
+              </span>
+              <span class="card-face card-back" aria-hidden="true">
+                <span class="back-number">US</span>
+                <span class="back-kicker">My love, my best friend</span>
+                <span class="back-message">Ten years of loving you, and I still want every next chapter. Wherever life carries us, home will always be the place where I can find your hand, hear your laugh, and be completely myself beside you.</span>
+                <span class="back-signoff">home has always been you</span>
+              </span>
+            </span>
+            <span class="ribbon ribbon--sky" aria-hidden="true">
+              <span class="ribbon__body"><span class="ribbon__copy">HOME</span></span>
+            </span>
+          </span>
+        </button>
+
+        <p class="gallery-note" aria-hidden="true">ten years, one love<br>still my best friend</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>TEN YEARS OF LATE NIGHTS, LOUD LAUGHS &amp; SOFT LANDINGS</span>
+    <span class="footer__heart" aria-hidden="true">♥</span>
+    <span>LOVERS, BEST FRIENDS · AND COUNTING</span>
+  </footer>
+
+  <dialog class="coupon-dialog" id="secret-coupon-dialog" aria-labelledby="coupon-title">
+    <form method="dialog">
+      <button class="coupon-close" type="submit" aria-label="Close secret coupon">×</button>
+    </form>
+    <div class="coupon-sparkles" aria-hidden="true">✦ <span>♥</span> ✦</div>
+    <p class="coupon-kicker">Secret anniversary coupon</p>
+    <h2 id="coupon-title">One whole book set</h2>
+    <p class="coupon-choice">of your choice</p>
+    <div class="coupon-prize">
+      <span>PRIZE</span>
+      <strong>One complete book series or boxed set — you pick every title.</strong>
+    </div>
+    <p class="coupon-price"><span>Price:</span> unlimited hugs and kisses</p>
+    <p class="coupon-fineprint">Valid forever. No guilt, no questions, maximum happy-reader energy.</p>
+    <form method="dialog">
+      <button class="coupon-keep" type="submit" value="kept">Keep this coupon ♥</button>
+    </form>
+  </dialog>
+
+  <p class="sr-only" id="memory-status" role="status" aria-live="polite" aria-atomic="true"></p>
+</body>
+</html>

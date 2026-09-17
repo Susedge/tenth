@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">A couple dancing under a disco ball</title>
+  <desc id="desc">Festive editorial illustration of a romantic couple dancing together with confetti, music, and a glowing disco ball.</desc>
+  <defs>
+    <radialGradient id="glow">
+      <stop stop-color="#eac974" stop-opacity=".9"/>
+      <stop offset=".5" stop-color="#af6756" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#382f32" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#805448"/>
+      <stop offset="1" stop-color="#3e3434"/>
+    </linearGradient>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".62" numOctaves="3" seed="41"/>
+      <feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .17 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="#393236"/>
+  <circle cx="600" cy="260" r="470" fill="url(#glow)"/>
+  <path d="M0 705 600 226l600 479Z" fill="#d2a85b" opacity=".13"/>
+  <path d="M0 900V688c218-67 417-72 597-16 179 56 380 61 603 13v215Z" fill="url(#floor)"/>
+  <path d="M0 795c217-57 416-56 597 2 179 57 380 60 603 8" fill="none" stroke="#d2a85b" stroke-width="13" opacity=".42"/>
+
+  <!-- disco ball -->
+  <path d="M600 0v83" stroke="#e9d8bd" stroke-width="10"/>
+  <circle cx="600" cy="174" r="97" fill="#d8c7aa" stroke="#f5ead8" stroke-width="11"/>
+  <path d="M512 146h176M507 184h186M524 222h152M556 85c-28 55-28 125 0 178m88-178c28 55 28 125 0 178M600 78v191" fill="none" stroke="#817069" stroke-width="8" opacity=".8"/>
+  <path d="M527 113 394 28m279 82L808 25M503 188l-187 37m379-37 188 38M546 244l-110 126m218-126 112 126" fill="none" stroke="#f2cf72" stroke-width="12" stroke-linecap="round" opacity=".42"/>
+
+  <!-- boyfriend -->
+  <circle cx="606" cy="367" r="80" fill="#dcb873"/>
+  <circle cx="604" cy="383" r="56" fill="#7f503d"/>
+  <path d="M545 368c6-67 44-108 99-86 34 14 51 46 43 82-30-3-63-25-83-52-11 29-31 48-59 56Z" fill="#30282a"/>
+  <path d="M510 589c15-119 44-168 98-168 63 0 100 60 113 168Z" fill="#b95f4c" stroke="#241f22" stroke-width="16"/>
+  <path d="M534 473c-47-44-64-95-63-162m214 157c44-57 57-115 53-181" fill="none" stroke="#7f503d" stroke-width="29" stroke-linecap="round"/>
+  <path d="m472 312-25-49m25 49 13-55m-12 56 47-29m219 3-7-53m7 53 29-45m-29 46 50-17" fill="none" stroke="#7f503d" stroke-width="17" stroke-linecap="round"/>
+  <path d="m557 574-15 215m124-215 31 207" fill="none" stroke="#7f503d" stroke-width="42" stroke-linecap="round"/>
+  <path d="M501 806h81m78-9h79" stroke="#e9d9be" stroke-width="27" stroke-linecap="round"/>
+
+  <!-- girlfriend -->
+  <circle cx="870" cy="409" r="79" fill="#8f503f"/>
+  <circle cx="866" cy="422" r="55" fill="#d3a079"/>
+  <path d="M812 409c0-66 37-105 92-86 35 13 53 48 44 86-33-10-62-32-80-59-12 28-31 47-56 59Z" fill="#614037"/>
+  <path d="M776 607c15-113 42-158 94-158 62 0 97 57 110 158Z" fill="#70806f" stroke="#241f22" stroke-width="16"/>
+  <path d="M798 489c-50-18-85-56-111-112m241 106c57-11 94-49 126-102" fill="none" stroke="#d3a079" stroke-width="29" stroke-linecap="round"/>
+  <path d="m1054 381 19-51m-19 51 52-16m-52 17 38 38" fill="none" stroke="#d3a079" stroke-width="17" stroke-linecap="round"/>
+  <path d="m824 589-50 194m139-194 58 191" fill="none" stroke="#d3a079" stroke-width="41" stroke-linecap="round"/>
+  <path d="M739 797h75m134-2h74" stroke="#e9d9be" stroke-width="27" stroke-linecap="round"/>
+  <path d="M764 392c-17-23-56-9-51 22 4 22 51 48 51 48s47-27 51-49c4-31-34-43-51-21Z" fill="#d2a34f"/>
+
+  <!-- confetti and notes -->
+  <g fill="none" stroke-linecap="round" stroke-width="14">
+    <path d="m171 173 30 31-34 30" stroke="#d2a34f"/>
+    <path d="m969 155 37-27 19 39" stroke="#c96a55"/>
+    <path d="m1016 544 35 20-24 34" stroke="#d2a34f"/>
+    <path d="m226 577-34 26-24-36" stroke="#7f998b"/>
+    <path d="M337 202v58c0 20-38 24-38-1 0-19 20-28 38-20m0-37 48-13v52c0 22-38 23-38 0 0-20 20-28 38-21" stroke="#f1dfc1"/>
+    <path d="M899 257v56c0 21-39 23-39-1 0-20 20-28 39-21l49-14v48c0 22-39 24-39 0 0-19 20-27 39-20" stroke="#f1dfc1"/>
+  </g>
+  <g fill="#f1dfc1">
+    <circle cx="120" cy="288" r="10"/><circle cx="1088" cy="277" r="11"/><circle cx="265" cy="112" r="9"/><circle cx="948" cy="92" r="9"/>
+  </g>
+  <rect width="1200" height="900" filter="url(#grain)" opacity=".2"/>
+</svg>

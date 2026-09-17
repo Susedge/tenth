@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">A couple making memories at home</title>
+  <desc id="desc">Cozy editorial illustration of a romantic couple cuddled on a sofa looking through instant photos beneath warm string lights.</desc>
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ead8bc"/>
+      <stop offset="1" stop-color="#d1a47f"/>
+    </linearGradient>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".66" numOctaves="3" seed="67"/>
+      <feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .15 0"/>
+    </filter>
+    <filter id="lightGlow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#room)"/>
+  <path d="M0 676h1200v224H0Z" fill="#9a624b"/>
+  <path d="M0 713h1200M0 806h1200" stroke="#754638" stroke-width="10" opacity=".5"/>
+
+  <!-- string lights -->
+  <path d="M0 125c210 80 410 94 602 43 206-55 405-49 598 35" fill="none" stroke="#514039" stroke-width="10"/>
+  <g fill="#f5c866" stroke="#59453a" stroke-width="8" filter="url(#lightGlow)">
+    <path d="M138 161v37"/><circle cx="138" cy="214" r="22"/>
+    <path d="M326 190v38"/><circle cx="326" cy="244" r="22"/>
+    <path d="M516 183v37"/><circle cx="516" cy="236" r="22"/>
+    <path d="M711 155v36"/><circle cx="711" cy="207" r="22"/>
+    <path d="M906 159v37"/><circle cx="906" cy="212" r="22"/>
+    <path d="M1080 188v37"/><circle cx="1080" cy="241" r="22"/>
+  </g>
+
+  <!-- wall art -->
+  <rect x="76" y="264" width="224" height="193" rx="8" fill="#f4ead8" stroke="#513f36" stroke-width="16" transform="rotate(-3 188 360)"/>
+  <circle cx="180" cy="348" r="59" fill="#d5a650"/>
+  <path d="M100 415c47-74 99-91 168-17v36H100Z" fill="#71806f"/>
+  <rect x="910" y="281" width="211" height="161" rx="8" fill="#f4ead8" stroke="#513f36" stroke-width="16" transform="rotate(3 1015 361)"/>
+  <path d="M941 399c47-89 97-95 151-13v35H941Z" fill="#9bb1b0"/>
+  <circle cx="1020" cy="337" r="34" fill="#c3664e"/>
+
+  <!-- plants -->
+  <path d="M109 680c22-92 28-151 17-229m0 104c-65-42-92-10-92-10 32 55 64 56 92 10Zm3-56c50-57 86-36 86-36-8 59-40 77-86 36Z" fill="none" stroke="#536751" stroke-width="21" stroke-linecap="round"/>
+  <path d="M49 653h161l-20 107H69Z" fill="#b75f49" stroke="#513f36" stroke-width="14"/>
+
+  <!-- sofa -->
+  <rect x="211" y="547" width="780" height="237" rx="77" fill="#758472" stroke="#493832" stroke-width="20"/>
+  <rect x="179" y="637" width="111" height="177" rx="44" fill="#667661" stroke="#493832" stroke-width="18"/>
+  <rect x="918" y="637" width="111" height="177" rx="44" fill="#667661" stroke="#493832" stroke-width="18"/>
+  <path d="M303 730c188 33 391 31 603-5" fill="none" stroke="#55634f" stroke-width="14"/>
+  <path d="M328 771v77m538-82v82" stroke="#493832" stroke-width="28" stroke-linecap="round"/>
+
+  <!-- girlfriend -->
+  <circle cx="400" cy="458" r="76" fill="#3b302d"/>
+  <circle cx="404" cy="474" r="54" fill="#b8795b"/>
+  <path d="M344 458c2-68 38-106 90-87 35 13 51 47 43 84-34-9-62-30-79-58-11 28-29 48-54 61Z" fill="#3b302d"/>
+  <path d="M315 662c14-113 41-161 93-161 61 0 96 58 109 161Z" fill="#c2634d" stroke="#493832" stroke-width="16"/>
+  <path d="M342 559c-16 61 16 104 89 128" fill="none" stroke="#b8795b" stroke-width="30" stroke-linecap="round"/>
+  <path d="M375 651c-40 28-68 63-87 104m176-90c19 42 53 70 103 88" fill="none" stroke="#b8795b" stroke-width="42" stroke-linecap="round"/>
+
+  <!-- boyfriend -->
+  <circle cx="608" cy="425" r="82" fill="#d8ac64"/>
+  <circle cx="608" cy="443" r="57" fill="#81513d"/>
+  <path d="M547 426c5-71 43-110 99-88 33 14 51 47 43 84-35-7-64-28-83-56-10 30-30 50-59 60Z" fill="#302828"/>
+  <path d="M513 653c16-122 45-174 100-174 65 0 103 63 116 174Z" fill="#d3a84f" stroke="#493832" stroke-width="16"/>
+  <path d="M538 540c21 56 55 94 100 116" fill="none" stroke="#81513d" stroke-width="30" stroke-linecap="round"/>
+  <path d="m563 642-17 110m111-110 57 109" fill="none" stroke="#81513d" stroke-width="42" stroke-linecap="round"/>
+
+  <!-- instant photos in hands -->
+  <g stroke="#493832" stroke-width="10" stroke-linejoin="round">
+    <path d="m432 574 92 17-18 116-92-17Z" fill="#f3e9d8"/>
+    <path d="m443 592 65 12-10 66-65-12Z" fill="#8ca2a1"/>
+    <circle cx="477" cy="626" r="13" fill="#efc667" stroke="none"/>
+    <path d="M438 651c19-31 37-35 59-4v11l-60-11Z" fill="#637765" stroke="none"/>
+    <path d="m620 579 91-22 27 114-92 22Z" fill="#f3e9d8"/>
+    <path d="m638 590 64-16 15 66-64 15Z" fill="#d59a77"/>
+    <circle cx="682" cy="605" r="12" fill="#f2cf6e" stroke="none"/>
+    <path d="M650 641c13-31 34-41 62-17l3 14-63 15Z" fill="#758671" stroke="none"/>
+  </g>
+  <path d="M511 467c-16-21-52-8-47 20 4 21 47 44 47 44s43-24 47-45c4-28-31-39-47-19Z" fill="#c2634d"/>
+
+  <path d="m1092 518 10 29 29 10-29 10-10 29-10-29-29-10 29-10ZM246 493l8 23 23 8-23 8-8 23-8-23-23-8 23-8Z" fill="#f6e6c7"/>
+  <rect width="1200" height="900" filter="url(#grain)" opacity=".2"/>
+</svg>

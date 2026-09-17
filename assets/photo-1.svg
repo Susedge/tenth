@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">A couple sharing coffee in a sunny cafe</title>
+  <desc id="desc">Warm editorial illustration of a romantic couple enjoying a cozy cafe date beneath a striped awning.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5dfc2"/>
+      <stop offset="1" stop-color="#dca17e"/>
+    </linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#8eafb3"/>
+      <stop offset="1" stop-color="#d6c997"/>
+    </linearGradient>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" seed="17"/>
+      <feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .16 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#wall)"/>
+  <circle cx="1045" cy="104" r="230" fill="#f4c96c" opacity=".62"/>
+  <path d="M0 85H1200V225H0Z" fill="#f8edda"/>
+  <path d="M0 85H170L130 225H0Zm340 0h170l-5 140H300Zm340 0h170l35 140H680Zm340 0h180v140h-140Z" fill="#b95f48"/>
+  <path d="M0 225c50 35 105 35 155 0 50 35 105 35 155 0 50 35 105 35 155 0 50 35 105 35 155 0 50 35 105 35 155 0 50 35 105 35 155 0 50 35 105 35 155 0 50 35 105 35 155 0v28H0Z" fill="#7d4b3a" opacity=".35"/>
+
+  <rect x="768" y="288" width="348" height="330" rx="28" fill="#f7ecdb" stroke="#4b3a32" stroke-width="18"/>
+  <rect x="798" y="318" width="288" height="270" rx="12" fill="url(#window)"/>
+  <path d="M942 320v268M800 455h286" fill="none" stroke="#f7ecdb" stroke-width="16"/>
+  <path d="M820 530c72-102 136-99 242 0" fill="#71806c" opacity=".75"/>
+  <path d="M823 546c66-63 135-76 239-12v54H823Z" fill="#597063"/>
+
+  <path d="M74 680c56-98 74-201 68-308" fill="none" stroke="#4c604e" stroke-width="24" stroke-linecap="round"/>
+  <path d="M139 454c-80-22-100-79-100-79 73-11 113 29 100 79Zm10-65c-13-80 28-116 28-116 42 63 28 111-28 116Zm-34 136c-69-33-91-3-91-3 33 57 73 57 91 3Zm39-57c13-71 63-83 63-83 8 66-14 92-63 83Z" fill="#708170"/>
+  <path d="M39 675h195l-25 136H64Z" fill="#b45e48" stroke="#4b3a32" stroke-width="16"/>
+
+  <ellipse cx="607" cy="761" rx="415" ry="82" fill="#3b2f2b" opacity=".18"/>
+  <ellipse cx="594" cy="655" rx="320" ry="80" fill="#efcb86" stroke="#4b3a32" stroke-width="18"/>
+  <path d="M566 712v129m70-129v129" stroke="#4b3a32" stroke-width="25" stroke-linecap="round"/>
+
+  <!-- boyfriend -->
+  <circle cx="584" cy="351" r="88" fill="#3f312e"/>
+  <circle cx="584" cy="370" r="61" fill="#d4a27e"/>
+  <path d="M515 362c7-91 56-125 118-91 30 17 46 47 42 86-39-14-73-39-92-64-10 32-32 55-68 69Z" fill="#3f312e"/>
+  <path d="M468 629c18-136 48-200 119-200 79 0 115 75 129 200Z" fill="#c16b50" stroke="#4b3a32" stroke-width="16"/>
+  <path d="M530 491c20 42 45 77 75 116M650 488c-12 54-37 92-71 123" fill="none" stroke="#d4a27e" stroke-width="29" stroke-linecap="round"/>
+  <path d="M572 520h72v65c0 33-72 33-72 0Z" fill="#f5ecdc" stroke="#4b3a32" stroke-width="12"/>
+  <path d="M644 539c45-6 46 48 2 48" fill="none" stroke="#4b3a32" stroke-width="12"/>
+
+  <!-- girlfriend -->
+  <circle cx="839" cy="430" r="82" fill="#e4bb83"/>
+  <circle cx="828" cy="442" r="59" fill="#8c5b45"/>
+  <path d="M773 425c-5-71 35-116 97-92 34 13 60 59 40 103-35-9-64-35-80-62-13 25-31 42-57 51Z" fill="#342b29"/>
+  <path d="M729 640c15-122 48-180 108-180 72 0 116 73 127 180Z" fill="#d8ad55" stroke="#4b3a32" stroke-width="16"/>
+  <path d="M824 505c-23 55-50 84-92 105" fill="none" stroke="#8c5b45" stroke-width="29" stroke-linecap="round"/>
+  <path d="M746 548h-67v56c0 30 67 30 67 0Z" fill="#f4e8d5" stroke="#4b3a32" stroke-width="12"/>
+  <path d="M680 564c-39-3-42 43-3 43" fill="none" stroke="#4b3a32" stroke-width="12"/>
+
+  <path d="M398 659c64-21 116-21 168 0m101-2c47-21 93-20 140 0" fill="none" stroke="#9b653f" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="459" cy="649" r="14" fill="#d85e49"/>
+  <circle cx="491" cy="653" r="14" fill="#75816d"/>
+  <path d="M717 393c-19-25-61-10-55 24 5 25 55 53 55 53s51-29 55-54c5-34-37-47-55-23Z" fill="#b95f48" opacity=".9"/>
+  <path d="M1029 126l11 31 32 11-32 11-11 31-11-31-32-11 32-11Zm-846 185 8 22 22 8-22 8-8 22-8-22-22-8 22-8Z" fill="#f8edda"/>
+  <rect width="1200" height="900" filter="url(#grain)" opacity=".22"/>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">A couple enjoying a sunset picnic</title>
+  <desc id="desc">Soft editorial illustration of a romantic couple sitting close at a seaside picnic beneath a peach and gold sunset.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#d99a83"/>
+      <stop offset=".55" stop-color="#edc27c"/>
+      <stop offset="1" stop-color="#f6e5c8"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#819c9d"/>
+      <stop offset="1" stop-color="#596f70"/>
+    </linearGradient>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".68" numOctaves="3" seed="53"/>
+      <feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .15 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#sunset)"/>
+  <circle cx="600" cy="320" r="150" fill="#f5d77b"/>
+  <circle cx="600" cy="320" r="192" fill="none" stroke="#f6e3b6" stroke-width="13" opacity=".45"/>
+  <path d="M0 440c182-20 347 3 496 67 160 68 395 68 704-7v252H0Z" fill="url(#sea)"/>
+  <path d="M0 527c180-26 341-5 484 62 164 77 403 72 716-20M0 618c196-35 365-14 508 61 148 78 379 72 692-21" fill="none" stroke="#dce1d5" stroke-width="13" opacity=".65"/>
+  <path d="M0 707c183-65 377-71 581-17 201 53 408 47 619-17v227H0Z" fill="#d8b779"/>
+  <path d="M0 800c196-49 393-45 591 12 202 58 405 55 609-9v97H0Z" fill="#cba363"/>
+
+  <!-- blanket -->
+  <path d="M184 716 602 630l417 102-114 168H257Z" fill="#b95f4d" stroke="#503c33" stroke-width="16" stroke-linejoin="round"/>
+  <path d="m273 698 92 202m93-231 68 231m106-267 38 267m93-237 14 237m110-208-17 208M223 778h737M246 842h669" fill="none" stroke="#efd5ab" stroke-width="10" opacity=".72"/>
+
+  <!-- boyfriend -->
+  <circle cx="611" cy="480" r="80" fill="#d8ae69"/>
+  <circle cx="610" cy="497" r="56" fill="#87543e"/>
+  <path d="M550 480c6-71 44-107 98-86 33 13 50 46 43 82-37-7-67-26-85-55-10 28-29 48-56 59Z" fill="#302929"/>
+  <path d="M512 704c17-119 46-169 102-169 65 0 102 61 116 169Z" fill="#d3a64d" stroke="#49382f" stroke-width="16"/>
+  <path d="M537 585c-56 2-91-18-126-53m276 49c50-2 86-26 115-65" fill="none" stroke="#87543e" stroke-width="29" stroke-linecap="round"/>
+  <path d="m558 691-55 118m163-118 84 113" fill="none" stroke="#87543e" stroke-width="42" stroke-linecap="round"/>
+
+  <!-- girlfriend -->
+  <circle cx="829" cy="527" r="77" fill="#9f5b45"/>
+  <circle cx="824" cy="542" r="54" fill="#d2a079"/>
+  <path d="M770 526c0-67 38-106 92-85 34 13 51 48 43 85-33-10-62-31-80-57-11 27-30 46-55 57Z" fill="#654136"/>
+  <path d="M736 718c15-109 42-155 92-155 61 0 96 57 109 155Z" fill="#779193" stroke="#49382f" stroke-width="16"/>
+  <path d="M757 615c-48-3-84-27-115-66m238 59c48-3 87-30 118-74" fill="none" stroke="#d2a079" stroke-width="29" stroke-linecap="round"/>
+  <path d="m781 704-44 107m138-107 70 102" fill="none" stroke="#d2a079" stroke-width="41" stroke-linecap="round"/>
+  <path d="M719 500c-15-20-49-8-45 19 4 19 45 42 45 42s41-23 45-43c4-27-30-37-45-18Z" fill="#c05f4c"/>
+
+  <!-- picnic details -->
+  <path d="M533 741h147l-22 82H553Z" fill="#f0dfc4" stroke="#49382f" stroke-width="12"/>
+  <path d="M570 741c10-35 25-53 47-53 22 0 37 18 47 53" fill="none" stroke="#49382f" stroke-width="11"/>
+  <circle cx="596" cy="771" r="16" fill="#c96750"/>
+  <circle cx="633" cy="780" r="16" fill="#71816f"/>
+  <path d="M1018 675c-2-75 16-131 54-169m-49 111c-47-42-81-35-81-35 13 53 42 68 81 35Zm17-50c34-56 78-49 78-49-8 51-33 70-78 49Z" fill="none" stroke="#637666" stroke-width="17" stroke-linecap="round"/>
+
+  <path d="M167 219c21-34 45-50 73-50 28 0 53 16 74 50 21-34 45-50 73-50m473 60c17-28 37-42 61-42 23 0 43 14 60 42 17-28 37-42 60-42" fill="none" stroke="#4f443e" stroke-width="11" stroke-linecap="round" opacity=".65"/>
+  <path d="m1053 239 10 28 28 10-28 10-10 28-10-28-28-10 28-10ZM126 352l8 23 23 8-23 8-8 23-8-23-23-8 23-8Z" fill="#f7e7c8"/>
+  <rect width="1200" height="900" filter="url(#grain)" opacity=".2"/>
+</svg>

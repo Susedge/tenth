@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">A couple on a sunlit road trip</title>
+  <desc id="desc">Warm editorial illustration of a romantic couple riding together in a coral convertible through rolling hills.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#9bb5ba"/>
+      <stop offset="1" stop-color="#e8c999"/>
+    </linearGradient>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="29"/>
+      <feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .14 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="932" cy="212" r="142" fill="#f3c65d"/>
+  <circle cx="932" cy="212" r="184" fill="none" stroke="#f7dfaa" stroke-width="14" opacity=".5"/>
+  <path d="M0 467 203 292l159 120 202-224 232 245 144-112 260 176v186H0Z" fill="#84927d"/>
+  <path d="m0 525 210-140 173 112 166-184 174 170 184-104 293 170v134H0Z" fill="#687a6b"/>
+  <path d="M0 599c185-81 345-85 510 2 183 96 412 81 690-45v211H0Z" fill="#d5a85a"/>
+  <path d="M0 665c192-60 355-48 525 31 188 88 411 82 675-37v241H0Z" fill="#b9754d"/>
+  <path d="M-50 900c190-161 428-215 672-139 192 59 388 53 628-43v182Z" fill="#e5c783"/>
+  <path d="M79 849c273-124 518-106 747 22" fill="none" stroke="#f7ead4" stroke-width="18" stroke-dasharray="75 48" stroke-linecap="round"/>
+
+  <!-- wind streaks -->
+  <path d="M52 222h218M93 266h126M786 94h197M1020 410h126" fill="none" stroke="#f6e8d1" stroke-width="15" stroke-linecap="round" opacity=".75"/>
+  <path d="M154 144c18-34 39-50 64-50 25 0 46 16 64 50 18-34 39-50 64-50" fill="none" stroke="#4b3a32" stroke-width="12" stroke-linecap="round" opacity=".6"/>
+
+  <!-- scarves behind car -->
+  <path d="M390 491c-105-90-185-82-283-31 104-5 128 48 211 70" fill="none" stroke="#f0d8a2" stroke-width="28" stroke-linecap="round"/>
+  <path d="M366 503c-116-37-190 6-260 74 86-37 147-1 221-21" fill="none" stroke="#9a4e40" stroke-width="22" stroke-linecap="round"/>
+
+  <!-- boyfriend -->
+  <circle cx="682" cy="408" r="82" fill="#e1b979"/>
+  <circle cx="682" cy="427" r="58" fill="#81523f"/>
+  <path d="M622 415c-1-66 37-111 97-87 33 13 50 48 44 85-35-14-62-35-83-61-9 28-29 49-58 63Z" fill="#302827"/>
+  <path d="M584 596c18-110 51-160 104-160 65 0 101 60 115 160Z" fill="#c6674f" stroke="#46362f" stroke-width="15"/>
+  <path d="M705 367c3-95 36-147 92-174" fill="none" stroke="#81523f" stroke-width="24" stroke-linecap="round"/>
+  <path d="m797 194-13-58m15 58 49-28m-51 28 48 26" fill="none" stroke="#81523f" stroke-width="18" stroke-linecap="round"/>
+
+  <!-- girlfriend -->
+  <circle cx="858" cy="456" r="77" fill="#9b5a43"/>
+  <circle cx="850" cy="467" r="55" fill="#d8a079"/>
+  <path d="M797 454c2-65 42-105 97-82 34 15 48 48 39 83-34-12-61-32-80-57-11 27-30 45-56 56Z" fill="#5a3e34"/>
+  <path d="M771 604c15-102 44-145 88-145 59 0 94 54 108 145Z" fill="#e2ae54" stroke="#46362f" stroke-width="15"/>
+  <path d="M779 354c-16-22-53-9-48 21 4 22 48 46 48 46s44-25 48-47c4-29-32-41-48-20Z" fill="#c45f4b"/>
+
+  <!-- convertible -->
+  <path d="M252 586h690c72 0 125 42 153 117l25 68H203l16-89c10-57 30-96 33-96Z" fill="#c45f4b" stroke="#46362f" stroke-width="20" stroke-linejoin="round"/>
+  <path d="M380 584c66-88 128-126 215-126h195c65 0 112 43 157 126" fill="none" stroke="#46362f" stroke-width="22" stroke-linecap="round"/>
+  <path d="M409 575c58-68 108-93 181-93h43v93Zm252 0v-93h119c52 0 90 35 129 93Z" fill="#b5ced0" stroke="#46362f" stroke-width="15"/>
+  <path d="M259 633c134 52 274 74 425 72 153-2 286-25 376-72" fill="none" stroke="#f4d9b4" stroke-width="16" opacity=".65"/>
+  <rect x="490" y="662" width="337" height="45" rx="22" fill="#913f37"/>
+  <circle cx="385" cy="760" r="83" fill="#3a3130"/>
+  <circle cx="385" cy="760" r="39" fill="#e6d2ad"/>
+  <circle cx="925" cy="760" r="83" fill="#3a3130"/>
+  <circle cx="925" cy="760" r="39" fill="#e6d2ad"/>
+  <path d="M245 704h90M1001 704h77" stroke="#f5d477" stroke-width="29" stroke-linecap="round"/>
+  <path d="M537 644h48m266 0h48" stroke="#4b3a32" stroke-width="15" stroke-linecap="round"/>
+
+  <path d="m1070 112 10 29 30 10-30 10-10 30-10-30-29-10 29-10ZM328 244l8 23 23 8-23 8-8 23-8-23-23-8 23-8Z" fill="#f7ead4"/>
+  <rect width="1200" height="900" filter="url(#grain)" opacity=".2"/>
+</svg>
