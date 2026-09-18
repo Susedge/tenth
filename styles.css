@@ -469,6 +469,11 @@ h1 {
   z-index: 30;
 }
 
+.memory-card[data-state="opening"],
+.memory-card:focus-visible {
+  z-index: 40;
+}
+
 .memory-card[data-state="closing"] {
   z-index: 29;
 }
@@ -524,10 +529,175 @@ h1 {
   transition: transform 650ms cubic-bezier(0.2, 0.8, 0.2, 1), filter 300ms ease;
 }
 
+.photo-stack {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255, 255, 255, 0.65), transparent 28%),
+    linear-gradient(145deg, #d9c5ad, #bfa88f);
+}
+
+.photo-stack .memory-photo {
+  position: absolute;
+  top: 9%;
+  left: 13%;
+  width: 74%;
+  height: 82%;
+  padding: clamp(3px, 0.55vw, 6px);
+  object-fit: cover;
+  background: var(--frame);
+  border: 1px solid rgba(75, 55, 43, 0.18);
+  box-shadow: 0 7px 15px rgba(53, 34, 23, 0.24);
+  transform-origin: 50% 88%;
+  transition:
+    top 280ms cubic-bezier(.2, .8, .25, 1),
+    left 280ms cubic-bezier(.2, .8, .25, 1),
+    width 280ms cubic-bezier(.2, .8, .25, 1),
+    height 280ms cubic-bezier(.2, .8, .25, 1),
+    transform 280ms cubic-bezier(.2, .8, .25, 1),
+    filter 220ms ease,
+    box-shadow 280ms ease;
+}
+
+.photo-stack .memory-photo--wide {
+  object-fit: contain;
+}
+
+.photo-stack--duo .memory-photo:nth-child(1) {
+  top: 7%;
+  left: 8%;
+  z-index: 1;
+  width: 58%;
+  height: 86%;
+  transform: rotate(-4deg);
+}
+
+.photo-stack--duo .memory-photo:nth-child(2) {
+  top: 5%;
+  left: 34%;
+  z-index: 2;
+  width: 58%;
+  height: 88%;
+  transform: rotate(3.5deg);
+}
+
+.photo-stack--trio .memory-photo:nth-child(1) {
+  top: 9%;
+  left: 5%;
+  z-index: 1;
+  width: 48%;
+  height: 82%;
+  transform: rotate(-5deg);
+}
+
+.photo-stack--trio .memory-photo:nth-child(2) {
+  top: 6%;
+  left: 26%;
+  z-index: 2;
+  width: 48%;
+  height: 88%;
+  transform: rotate(0deg);
+}
+
+.photo-stack--trio .memory-photo:nth-child(3) {
+  top: 9%;
+  left: 47%;
+  z-index: 3;
+  width: 48%;
+  height: 82%;
+  transform: rotate(5deg);
+}
+
+.memory-card[data-state="opening"] .photo-stack--duo .memory-photo:nth-child(1) {
+  left: -11%;
+  transform: rotate(-8deg) translateY(-10%) scale(1.045);
+}
+
+.memory-card[data-state="opening"] .photo-stack--duo .memory-photo:nth-child(2) {
+  left: 53%;
+  transform: rotate(8deg) translateY(-10%) scale(1.045);
+}
+
+.memory-card[data-state="opening"] .photo-stack--trio .memory-photo:nth-child(1) {
+  left: -27%;
+  transform: rotate(-9deg) translateY(-7%) scale(1.035);
+}
+
+.memory-card[data-state="opening"] .photo-stack--trio .memory-photo:nth-child(2) {
+  left: 26%;
+  transform: rotate(0deg) translateY(-13%) scale(1.045);
+}
+
+.memory-card[data-state="opening"] .photo-stack--trio .memory-photo:nth-child(3) {
+  left: 79%;
+  transform: rotate(9deg) translateY(-7%) scale(1.035);
+}
+
+.memory-card[data-state="opening"] .card-front,
+.memory-card[data-state="opening"] .photo-window,
+.memory-card[data-state="opening"] .photo-stack,
+.memory-card:focus-visible .card-front,
+.memory-card:focus-visible .photo-window,
+.memory-card:focus-visible .photo-stack {
+  overflow: visible;
+}
+
+.memory-card[data-state="opening"] .photo-stack .memory-photo,
+.memory-card:focus-visible .photo-stack .memory-photo {
+  box-shadow: 0 18px 28px rgba(53, 34, 23, 0.3);
+}
+
 @media (hover: hover) and (pointer: fine) {
-  .memory-card:not([data-state="open"]):hover .photo-window img {
+  .memory-card:not([data-state="open"]):hover {
+    z-index: 40;
+  }
+
+  .memory-card:not([data-state="open"]):hover .card-front,
+  .memory-card:not([data-state="open"]):hover .photo-window,
+  .memory-card:not([data-state="open"]):hover .photo-stack {
+    overflow: visible;
+  }
+
+  .memory-card:not([data-state="open"]):hover .photo-window > img {
     transform: scale(1.025);
     filter: saturate(0.98) sepia(0.04) contrast(1);
+  }
+
+  .memory-card:not([data-state="open"]):hover .photo-stack--duo .memory-photo:nth-child(1),
+  .memory-card:focus-visible .photo-stack--duo .memory-photo:nth-child(1) {
+    left: -11%;
+    transform: rotate(-8deg) translateY(-10%) scale(1.045);
+  }
+
+  .memory-card:not([data-state="open"]):hover .photo-stack--duo .memory-photo:nth-child(2),
+  .memory-card:focus-visible .photo-stack--duo .memory-photo:nth-child(2) {
+    left: 53%;
+    transform: rotate(8deg) translateY(-10%) scale(1.045);
+  }
+
+  .memory-card:not([data-state="open"]):hover .photo-stack--trio .memory-photo:nth-child(1),
+  .memory-card:focus-visible .photo-stack--trio .memory-photo:nth-child(1) {
+    left: -27%;
+    transform: rotate(-9deg) translateY(-7%) scale(1.035);
+  }
+
+  .memory-card:not([data-state="open"]):hover .photo-stack--trio .memory-photo:nth-child(2),
+  .memory-card:focus-visible .photo-stack--trio .memory-photo:nth-child(2) {
+    left: 26%;
+    transform: rotate(0deg) translateY(-13%) scale(1.045);
+  }
+
+  .memory-card:not([data-state="open"]):hover .photo-stack--trio .memory-photo:nth-child(3),
+  .memory-card:focus-visible .photo-stack--trio .memory-photo:nth-child(3) {
+    left: 79%;
+    transform: rotate(9deg) translateY(-7%) scale(1.035);
+  }
+
+  .memory-card:not([data-state="open"]):hover .photo-stack .memory-photo {
+    filter: saturate(1.04) contrast(1.02);
+    box-shadow: 0 18px 28px rgba(53, 34, 23, 0.3);
   }
 }
 
